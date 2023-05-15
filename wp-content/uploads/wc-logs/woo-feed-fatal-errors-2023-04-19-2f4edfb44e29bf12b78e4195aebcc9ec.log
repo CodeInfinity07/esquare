@@ -1,0 +1,14 @@
+2023-04-19T00:04:41+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) in /home/esqugcfh/public_html/wp-includes/meta.php on line 1186
+
+2023-04-19T00:41:54+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 131072 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php on line 2411
+
+2023-04-19T02:16:48+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-04-19T10:12:04+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 131072 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php on line 2411
+
+2023-04-19T13:32:54+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-04-19T15:55:57+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-04-19T22:43:32+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+

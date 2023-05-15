@@ -1,0 +1,6 @@
+2023-04-04T21:29:08+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-04-04T23:07:15+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-04-04T23:36:59+00:00 CRITICAL Allowed memory size of 41943040 bytes exhausted (tried to allocate 65536 bytes) in /home/esqugcfh/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+

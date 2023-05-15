@@ -1,0 +1,996 @@
+
+
+.leopards-courier-modal {
+
+    display: none;
+
+    position: fixed; 
+
+    z-index: 9999; 
+
+    padding-top: 100px; 
+
+    left: 0;
+
+    top: 0;
+
+    width: 100%; 
+
+    height: 100%; 
+
+    overflow: auto; 
+
+    background-color: rgb(0,0,0); 
+
+    background-color: rgba(0,0,0,0.4); 
+
+ }
+
+ 
+
+.leopards-courier-modal  .modal-content {
+
+  background-color: #fefefe;
+
+  margin: auto;
+
+  padding: 0;
+
+  border: 1px solid #888;
+
+  width: 30%;
+
+  min-width: 570px;
+
+  }
+
+
+
+
+
+div#leopards-courier-modal-load-sheet .modal-content.lcs-modals{
+
+  width: 50%;
+
+  min-width: 870px;
+
+}
+
+
+
+
+
+
+
+#leopards-courier-loader{
+
+  position: absolute;
+
+  top: 0px; 
+
+  left: 0px; 
+
+  z-index: 999999; 
+
+  width: 100%; 
+
+  height: 1600px; 
+
+  background-color: rgb(255, 255, 255); 
+
+  opacity: 0.4; 
+
+  padding-top: 500px; 
+
+  display: block;
+
+}
+
+#leopards-courier-loader img{
+
+  position:fixed; 
+
+  top:400px;
+
+}
+
+  
+
+
+
+.leopards-courier-modal .close {
+
+  color: #aaaaaa;
+
+  float: right;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  position: absolute;
+
+  top: 10px;
+
+  right: 15px;
+
+  }
+
+  
+
+.leopards-courier-modal.close:hover,
+
+.leopards-courier-modal.close:focus {
+
+color: #000;
+
+text-decoration: none;
+
+cursor: pointer;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-header {
+
+  padding: 20px;
+
+  position: relative;
+
+  background: #eee;
+
+
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-header .lcs-modal-title{
+
+  margin: 0;
+
+  font-size: 16px;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-header .close{
+
+  color: #aaaaaa;
+
+  float: right;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  position: absolute;
+
+  top: 10px;
+
+  right: 15px;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content {padding:20px 20px 13px;max-height: 450px;overflow: scroll;}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .lcs-select-wrap select {
+
+  width: 100%;
+
+  border: 1px solid #d8d3d3;
+
+  border-radius: 5px;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .error-show{
+
+  color: red;
+
+  font-size: 12px;
+
+  margin-bottom: 15px;
+
+  display: none;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .error-show::before{display:inline-block;content: "*";}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .lcs-select-wrap label {
+
+  color: #000;
+
+  width: 100%;
+
+  font-weight: 600;
+
+  text-transform: capitalize;
+
+  display: inline-block;
+
+  margin-bottom: 6px;
+
+  font-size: 12px;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .lcs-submit-btn{
+
+  display: inline-block;
+
+  width:100%;
+
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .button {
+
+  float: right;
+  margin: 5px;
+}
+
+
+
+.leopards-courier-modal .lcs-modal-inner-content .lcs-submit-btn::before {
+
+  display: block;
+
+  content: "";
+
+  width: calc(100% + 40px);
+
+  height: 1px;
+
+ /* background: #cac2c2;*/
+
+  margin-bottom: 15px;
+
+  position: relative;
+
+  left: -20px;
+
+}
+
+.leopards-courier-modal .leopards-tracking-details {padding:20px;}
+
+.leopards-courier-modal .leopards-tracking-details thead tr th{
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  border: 1px solid #eee;
+
+  background: #f9f9f9;
+
+}
+
+
+
+.leopards-courier-modal .leopards-tracking-details tbody tr td{ border: 1px solid #eee;}
+
+
+
+.leopards-courier-modal .leopards-tracking-details tbody tr:nth-child(even) {
+
+  background-color: #f9f9f9;
+
+}
+
+
+
+.leopards-courier-modal.leopoard-tracking-modal .modal-content {
+
+  width: 40%;
+
+  min-width: 760px;
+
+}
+
+.bulk-preview-back-btn{
+  float: right;
+  margin: 20px !important;
+}
+
+
+
+.center {
+
+    margin: auto;
+
+    width: 60%;
+
+    padding: 20px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+.hideform {
+
+    display: none;
+
+}
+
+
+
+
+
+/* The Modal (background) */
+
+.modal {
+
+  display: none; /* Hidden by default */
+
+  position: fixed; /* Stay in place */
+
+  z-index: 1; /* Sit on top */
+
+  padding-top: 100px; /* Location of the box */
+
+  left: 0;
+
+  top: 0;
+
+  width: 100%; /* Full width */
+
+  height: 100%; /* Full height */
+
+  overflow: auto; /* Enable scroll if needed */
+
+  background-color: rgb(0,0,0); /* Fallback color */
+
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+
+
+/* Modal Content */
+
+.modal-content {
+
+  background-color: #fefefe;
+
+  margin: auto;
+
+  padding: 20px;
+
+  border: 1px solid #888;
+
+  width: 80%;
+
+}
+
+
+
+/* The Close Button */
+
+.close {
+
+  color: #aaaaaa;
+
+  float: right;
+
+  font-size: 28px;
+
+  font-weight: bold;
+
+}
+
+
+
+.close:hover,
+
+.close:focus {
+
+  color: #000;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+}
+
+body input.lcs_load_sheet_btn.button.button-primary{
+
+    margin: -26px 22px;
+
+    float: right;
+
+}
+
+
+
+body table.lcs-load-table {
+
+    margin: 5px;
+
+    order: 1;
+
+}
+
+ body .idmsg {
+
+    text-align: center;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    margin-top: -17px;
+
+    padding-bottom: 20px;
+
+}
+
+body h3.load-sheet-heading  ,  body h3.generate-sheet-heading{
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+    margin: 0;
+
+    padding: 9px 0 4px 0;
+
+    line-height: 1.3;
+
+    display: inline-block;
+
+    margin-right: 5px;
+
+}
+
+body h4.recmsg{
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+    border-bottom: 1px solid #000;
+
+    display: inline-block;
+
+    padding-bottom: 8px;
+
+    text-align: center;
+
+    width: 100%;
+
+    border: transparent;
+
+}
+
+body a.create-load-btn{
+
+    float: right;
+
+    padding-right: 49px;
+
+    padding-bottom: 30px;
+
+}
+
+body ul.active-track-no{
+
+    display: inline-flex;
+
+    margin: 0;
+
+}
+
+body ul.active-track-no li{
+
+  display: inline;
+
+  margin: 0 13px 0px 36px;
+
+}
+
+body ul.active-track-no li span{
+
+     padding-right: 9px;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+}
+
+body ul.active-track-no li  input{
+
+    padding: 8px;
+
+    font-weight: 400;
+
+}
+
+body p.generte-btn {
+
+    padding-bottom: 16px;
+
+    margin: 0;
+
+}
+
+
+
+
+
+
+
+/* CSS for pagination table */
+
+
+
+body table.lcs-load-table thead  th{
+
+    width: 14ch;
+
+    padding: 0.7em 0em 14px 8px;
+
+    vertical-align: middle;
+
+}
+
+
+
+body table.lcs-load-table td {
+
+/*    width: 10em;
+
+   padding: 0.7em;*/
+
+    padding: 1em;
+
+    line-height: 26px;
+
+    width: 20ch;
+
+    cursor: pointer;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    font-size: 13px;
+
+    color: #555;
+
+    line-height: 26px;
+
+}
+
+
+
+div.lcs-pager {
+
+    text-align: center;
+
+    margin: 1em 0;
+
+}
+
+
+
+div.lcs-pager span {
+
+    display: inline-block;
+
+    width: 1.8em;
+
+    height: 1.8em;
+
+    line-height: 1.8;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    background: #000;
+
+    color: #fff;
+
+    margin-right: 0.5em;
+
+}
+
+
+
+div.lcs-pager span.active {
+
+       background: grey;
+
+}
+
+
+
+body .lcs-pager{
+
+    text-align: center;
+
+    width: 100%;
+
+    order: 2; 
+
+}
+
+
+
+
+
+/* CSS for Scroll bar in generate popup */
+
+
+
+body table.load-sheet-panel.scroll thead tr{
+
+  display: table;
+
+    width: 100%;
+
+}
+
+
+
+body table.load-sheet-panel.scroll tbody,
+
+body table.load-sheet-panel.scroll thead { display: block; }
+
+
+
+body table.load-sheet-panel thead tr th { 
+
+    height: 30px;
+
+    line-height: 30px;
+
+}
+
+
+
+body table.load-sheet-panel.scroll tbody {
+
+    height: 180px;
+
+    overflow-y: auto;
+
+    overflow-x: hidden;
+
+}
+
+body table.load-sheet-panel.scroll tbody  tr td:nth-child(1){
+
+       width: 18%;
+
+       padding-left: 9px;
+
+}
+
+body table.load-sheet-panel.scroll tbody  tr td:nth-child(2){
+
+     width: 16%;
+
+}
+
+
+
+body table.load-sheet-panel.scroll tbody  tr td:nth-child(3){
+
+       width: 31%;
+
+}
+
+
+
+body #poststuff .inside table.load-sheet-panel {
+
+    margin: 6px 0 0 0;
+
+}
+
+
+
+body  .postbox .inside table.load-sheet-panel {
+
+    margin: 11px 0;
+
+    position: relative;
+
+}
+
+body  .postbox .inside table.load-sheet-panel{
+
+    padding: 0 12px 12px;
+
+    line-height: 1.4;
+
+    font-size: 13px;
+
+}
+
+
+
+body .lcs-download-btn:hover {
+
+    background: #fafafa;
+
+    border-color: #999;
+
+    color: #23282d;
+
+}
+
+
+
+body .wrap .inside {display: grid;}
+
+
+
+
+
+body .lcs-disableds span.tablenav-pages-navspan.disabled {
+
+    border: 1px solid #ddd;
+
+    color: #a0a5aa!important;
+
+    border-color: #ddd!important;
+
+    background: #f7f7f7!important;
+
+    box-shadow: none!important;
+
+    text-shadow: 0 1px 0 #fff!important;
+
+    cursor: default;
+
+    transform: none!important;
+
+}
+
+
+
+body .outline-focus {
+
+  border: 1px solid red !important;
+
+}
+
+
+
+/*#lcs_bulk_shipment_modal .bg-error {
+
+    background: yellow;
+
+    color: #000;
+
+}*/
+
+
+
+
+
+.city_input{
+
+  float: left;
+
+}
+
+
+
+#lcs_bulk_shipment_modal .modal-content {
+
+    margin: auto;
+
+    padding: 0;
+
+    width: 60%;
+
+    min-width: 570px;
+
+}
+body .select2.select2-container.select2-container--default{
+  z-index: 0 !important;
+}
+/*.select2.select2-container.select2-container--default.select2-container--focus {
+    z-index: 0;
+}*/
+
+
+.order-status.status-matched {
+
+    background: #c6e1c6;
+
+    color: #5b841b;
+
+}
+
+
+
+.order-status.status-unmatched {
+
+    background: #e5e5e5;
+
+    color: #777;
+
+}
+
+
+
+
+
+.city_input {
+
+      padding: 0;
+
+    padding-left: 10px;
+
+    width: 100%;
+
+    display: inline-block;
+
+}
+
+#lcs_bulk_shipment_modal select {
+
+  width: 100% ;
+
+}
+
+.table-row th, .table-row td {
+
+  width: auto;
+
+}
+
+
+
+body #lcs_bulk_shipment_modal .lcs_bulk_shipment_btn {
+
+  margin: 0 auto;
+
+  display: table ;
+
+  margin-top: 10px;
+
+  margin-bottom: 10px;  
+
+}
+
+
+
+body #lcs_bulk_shipment_modal .lcs_bulk_shipment_btn {
+
+  display: none;
+
+}
+
+
+
+#lcs_bulk_shipment_modal .lcs_response {display: none;}
+
+#lcs_bulk_shipment_modal .note_content {
+
+    color: #5b841b;
+
+    background: #c6e1c6;
+
+    margin: 0 auto;
+
+    display: table;
+
+}
+
+#lcs_bulk_shipment_modal ul.order_notes li.system-note .note_content::after {
+
+    border-color: #c6e1c6 transparent;
+
+}
+
+
+
+
+
+div#leopards-courier-modal-load-sheet .error-show.idmsg{
+	word-spacing: 2px;
+    color: red;
+}
+
+ div#lcs_bulk_shipment_modal{
+	      overflow: hidden;
+  }
+
+ #lcs_bulk_shipment_modal .modal-content{
+	 height: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+ }
+  .order-status.status-matched.tips{
+   width: 100%;
+  text-align: center;
+  display: inline-block;
+ }
+ .leopards-bulk-track table thead tr th , 
+  .leopards-bulk-track table thead tr td{
+   text-align: center;
+ }
+ .leopards-bulk-track {
+    text-align: center;
+}
+.order-status.status-unmatched.tips {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.select_msg {
+    font-weight: bold;
+    font-size: 18px;
+}
+body #lcs_bulk_shipment_modal .create-btn{
+	display: table;
+	background: darkgreen;
+	color: #fff;
+	border: 2px solid #ccc;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.current-status {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+#leopards-courier-settings-sync_cities {
+  display: none;
+}
+.preview-lcsdata .preview-lcsdata th, .preview-lcsdata td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .preview-lcsdata th, .preview-lcsdata td {
+    padding: 5px;
+    text-align: left;
+  }
+  #lcs_submit_book_packet_btn {
+    display: none;
+  }
+  #lcs_submit_book_packet_back_btn {
+    display: none;
+  }
+  @media(max-width: 1024px) {
+    #lcs_bulk_shipment_modal .modal-content {
+      width: 85%;
+    }
+  }

@@ -1,0 +1,359 @@
+2023-04-14T16:55:10+00:00 DEBUG Getting Data for wf_configgoogle-shopping-ads feed.
+
+2023-04-14T16:55:10+00:00 DEBUG Generating Feed VIA Ajax...
+
+2023-04-14T16:55:10+00:00 DEBUG Current Limit is 200.
+
+2023-04-14T16:55:10+00:00 INFO Feed Config::
+Array
+(
+    [provider] => google
+    [feed_country] => PK
+    [filename] => Google Shopping Ads
+    [feedType] => csv
+    [ftpenabled] => 0
+    [ftporsftp] => ftp
+    [ftphost] => 
+    [ftpport] => 21
+    [ftpuser] => 
+    [ftppassword] => 
+    [ftppath] => 
+    [ftpmode] => active
+    [is_variations] => y
+    [variable_price] => first
+    [variable_quantity] => first
+    [feedLanguage] => 
+    [feedCurrency] => PKR
+    [itemsWrapper] => products
+    [itemWrapper] => product
+    [delimiter] => ,
+    [enclosure] => double
+    [extraHeader] => 
+    [vendors] => Array
+        (
+        )
+
+    [mattributes] => Array
+        (
+            [0] => id
+            [1] => title
+            [2] => description
+            [3] => item_group_id
+            [4] => link
+            [5] => product_type
+            [6] => current_category
+            [7] => image
+            [8] => condition
+            [9] => availability
+            [10] => price
+            [11] => sale_price
+            [12] => sku
+            [13] => brand
+            [14] => canonical_link
+            [15] => images_1
+            [16] => images_2
+            [17] => images_3
+            [18] => images_4
+            [19] => images_5
+        )
+
+    [prefix] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+            [16] => 
+            [17] => 
+            [18] => 
+            [19] => 
+        )
+
+    [type] => Array
+        (
+            [0] => attribute
+            [1] => attribute
+            [2] => attribute
+            [3] => attribute
+            [4] => attribute
+            [5] => attribute
+            [6] => pattern
+            [7] => attribute
+            [8] => pattern
+            [9] => attribute
+            [10] => attribute
+            [11] => attribute
+            [12] => attribute
+            [13] => pattern
+            [14] => attribute
+            [15] => attribute
+            [16] => attribute
+            [17] => attribute
+            [18] => attribute
+            [19] => attribute
+        )
+
+    [attributes] => Array
+        (
+            [0] => id
+            [1] => title
+            [2] => description
+            [3] => item_group_id
+            [4] => link
+            [5] => product_type
+            [6] => 
+            [7] => image
+            [8] => 
+            [9] => availability
+            [10] => price
+            [11] => current_price
+            [12] => sku
+            [13] => 
+            [14] => canonical_link
+            [15] => image_1
+            [16] => image_2
+            [17] => image_3
+            [18] => image_4
+            [19] => image_5
+        )
+
+    [default] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 264
+            [7] => 
+            [8] => new
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => Esquare
+            [14] => 
+            [15] => 
+            [16] => 
+            [17] => 
+            [18] => 
+            [19] => 
+        )
+
+    [suffix] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] =>  PKR
+            [11] =>  PKR
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+            [16] => 
+            [17] => 
+            [18] => 
+            [19] => 
+        )
+
+    [output_type] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 1
+                )
+
+            [1] => Array
+                (
+                    [0] => 1
+                )
+
+            [2] => Array
+                (
+                    [0] => 11
+                )
+
+            [3] => Array
+                (
+                    [0] => 1
+                )
+
+            [4] => Array
+                (
+                    [0] => 1
+                )
+
+            [5] => Array
+                (
+                    [0] => 1
+                )
+
+            [6] => Array
+                (
+                    [0] => 1
+                )
+
+            [7] => Array
+                (
+                    [0] => 1
+                )
+
+            [8] => Array
+                (
+                    [0] => 1
+                )
+
+            [9] => Array
+                (
+                    [0] => 1
+                )
+
+            [10] => Array
+                (
+                    [0] => 6
+                )
+
+            [11] => Array
+                (
+                    [0] => 6
+                )
+
+            [12] => Array
+                (
+                    [0] => 1
+                )
+
+            [13] => Array
+                (
+                    [0] => 1
+                )
+
+            [14] => Array
+                (
+                    [0] => 1
+                )
+
+            [15] => Array
+                (
+                    [0] => 1
+                )
+
+            [16] => Array
+                (
+                    [0] => 1
+                )
+
+            [17] => Array
+                (
+                    [0] => 1
+                )
+
+            [18] => Array
+                (
+                    [0] => 1
+                )
+
+            [19] => Array
+                (
+                    [0] => 1
+                )
+
+        )
+
+    [limit] => Array
+        (
+            [0] => 
+            [1] => 
+            [2] => 
+            [3] => 
+            [4] => 
+            [5] => 
+            [6] => 
+            [7] => 
+            [8] => 
+            [9] => 
+            [10] => 
+            [11] => 
+            [12] => 
+            [13] => 
+            [14] => 
+            [15] => 
+            [16] => 
+            [17] => 
+            [18] => 
+            [19] => 
+        )
+
+    [composite_price] => 
+    [product_ids] => 
+    [categories] => Array
+        (
+        )
+
+    [post_status] => Array
+        (
+            [0] => publish
+        )
+
+    [filter_mode] => Array
+        (
+            [product_ids] => include
+            [categories] => include
+            [post_status] => include
+        )
+
+    [campaign_parameters] => Array
+        (
+            [utm_source] => Google Shopping
+            [utm_medium] => 
+            [utm_campaign] => Google Shopping Ads
+            [utm_term] => 
+            [utm_content] => 
+        )
+
+    [is_outOfStock] => n
+    [is_backorder] => n
+    [is_emptyDescription] => n
+    [is_emptyTitle] => n
+    [is_emptyImage] => n
+    [is_emptyPrice] => n
+    [product_visibility] => 0
+    [shipping_country] => 
+    [tax_country] => 
+    [outofstock_visibility] => 0
+    [ptitle_show] => 
+    [decimal_separator] => .
+    [thousand_separator] => ,
+    [decimals] => 0
+    [feed_option_name] => 
+    [feed_id] => 
+    [meta-box-order-nonce] => 068412ef63
+    [wf_tabs] => on
+)
+
+
+2023-04-14T16:55:10+00:00 DEBUG Total 230 product found
+
+2023-04-14T16:55:10+00:00 DEBUG Total 2 batches
+

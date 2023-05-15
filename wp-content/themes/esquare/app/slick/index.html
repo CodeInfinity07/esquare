@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+</head>
+<body>
+    <section class="vertical-center-4 slider">
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+       
+        <div>
+          <img src="https://pbs.twimg.com/profile_images/1285655593592791040/HtwPZgej_400x400.jpg">
+        </div>
+      </section>
+
+    <script src="jquery.min.js"></script>
+    <!-- <script src="slick.min.js"></script> -->
+
+
+    <script>
+        $(document).on('ready', function() {
+      $(".vertical-center-4").slick({
+        dots: true,
+        vertical: false,
+        centerMode: true,
+        slidesToShow: 4,
+        slidesToScroll: 2
+      });
+    });
+    </script>
+</body>
+</html>

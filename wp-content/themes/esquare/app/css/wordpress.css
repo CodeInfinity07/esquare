@@ -1,0 +1,135 @@
+/* custom selection 
+-------------------------------------------------------*/
+
+/* .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    border: 2px solid var(--brand--border);
+    padding: 0;
+    border-radius: 3px;
+}
+
+.search input {
+    height: 40px;
+    padding: 0;
+    padding-left: 20px;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-left: 200px;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 60px;
+    height: 44px;
+    border: none;
+    background: var(--brand-secondary);
+    text-align: center;
+    color: var(--brand--text);
+    border-radius: 0 3px 3px 0;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1.6rem;
+    position: absolute;
+    right: -2px;
+    top: -2px
+}
+
+.searchButton svg {
+    height: 17px;
+} */
+
+
+/*Resize the wrap to see the search bar change!*/
+
+/* .wrap {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hamburger {
+    display: none;
+}
+
+.select-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+}
+
+.select-wrapper,
+.select-wrapper select {
+    width: 200px;
+    height: 40px;
+}
+
+.select-wrapper:hover {
+    background: url("/examples/images/dropdown-hover.png") no-repeat right center;
+    border-color: #239fdb;
+    color: var(--brand--text);
+}
+
+.select-wrapper .holder {
+    display: block;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    padding: 11px 20px;
+    line-height: 20px;
+}
+
+.select-wrapper .holder:after {
+    content: "\e9c6";
+    position: absolute;
+    font-family: 'jk_icons' !important;
+    right: 10%;
+top: 50%;transform: translateY(-50%);}
+
+.select-wrapper .holder:before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    height: 20px;
+    width: 2px;
+    background: var(--brand--border);
+}
+
+.select-wrapper select {
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    outline: none;
+    opacity: 0;
+} */
+
+
+/* Let's Beautify Our Form */
+
+/* form {
+    margin: 20px;
+}
+
+input[type="submit"] {
+    float: left;
+    background: #d8d8d8;
+    border: 1px solid #c4c4c4;
+    margin-left: 10px;
+    padding: 4px 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    color: #fff;
+    border-color: #1b7aa9;
+    background-color: #239fdb;
+} */
